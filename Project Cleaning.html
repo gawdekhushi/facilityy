@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Travela - Tourism Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <!-- <a href="#"><small class="me-3 text-light"><i class="fa fa-user me-2"></i>Register</small></a>
+                    <a href="#"><small class="me-3 text-light"><i class="fa fa-sign-in-alt me-2"></i>Login</small></a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle text-light" data-bs-toggle="dropdown"><small><i class="fa fa-home me-2"></i> My Dashboard</small></a> -->
+                    <div class="dropdown-menu rounded">
+                        <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
+                        <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
+                        <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
+                        <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
+                        <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0" style="background-color: white;">
+            <a href="" class="navbar-brand p-0">
+                <h2 class="m-0"><img src="img/fi(1).png" alt="" srcset=""></h2>
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="#about" class="nav-item nav-link" style=" color:black;">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="#" class="dropdown-item">Cleaning Services</a>
+                            <a href="tour.html" class="dropdown-item">Technical Services</a>
+                            <a href="booking.html" class="dropdown-item">Corporate Gifting & Printing</a>
+                        </div>
+                    </div>
+
+
+                    <a href="packages.html" class="nav-item nav-link">Project</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="blog.html" class="nav-item nav-link">Blog</a>
+                    <!-- <a href="blog.html" class="nav-item nav-link">Blog</a> -->
+
+
+                </div>
+                <!-- <a href="" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Book Now</a> -->
+            </div>
+        </nav>
+</div>
+<!-- Page Header Start -->
+<div class="container-fluid bg-primary py-5 mb-5">
+    <div class="container py-5">
+        <div class="row align-items-center py-4">
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">Project Cleaning Page</h1>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn btn-sm btn-outline-light" href="">Home</a>
+                    <i class="fas fa-angle-double-right text-light mx-2"></i>
+                    <a class="btn btn-sm btn-outline-light disabled" href="">Project Cleaning Page</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+
+
+<!-- Detail Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="mb-5">
+                    <div class="d-flex mb-2">
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a>
+                        <span class="text-primary px-2">|</span>
+                        <a class="text-secondary text-uppercase font-weight-medium" href="">January 01, 2045</a>
+                    </div>
+                    <h1 class="section-title mb-3">Transforming Spaces: Professional Project Cleaning Services</h1>
+                </div>
+                <div class="mb-5">
+                    <img class="img-fluid rounded w-100 mb-4" src="img/carousel-1.jpg" alt="Image">
+                    <p>Transform your project into a clean and inviting space with our professional project cleaning services. From construction sites to commercial developments, we have the expertise and resources to ensure a successful outcome. Contact us today to learn more about our services and schedule a consultation. Let us help you achieve cleanliness and excellence in every project.
+                        Top of Form
+                        </p>
+                    <p>Welcome to our premier project cleaning services, where we turn construction sites, renovation projects, and commercial developments into pristine and inviting spaces. We understand the importance of cleanliness and presentation in completing a successful project, which is why our expert team is dedicated to providing comprehensive cleaning solutions tailored to meet the unique needs of each project.</p>
+                    <h2 class="mb-4">Why Choose Professional Project Cleaning?</h2>
+                    <img class="img-fluid rounded w-50 float-left mr-4 mb-3" src="img/blog-1.jpg" alt="Image">
+                    <p>1.Efficiency: Our trained professionals utilize advanced cleaning techniques and equipment to efficiently clean and prepare construction sites and project areas for occupancy or final presentation.
+                        <br>2.Safety: We adhere to strict safety protocols to ensure the protection of workers, visitors, and occupants during the cleaning process, minimizing the risk of accidents or injuries.
+                        <br>3.Quality Assurance: We take pride in delivering high-quality cleaning results that meet or exceed industry standards, enhancing the overall appearance and appeal of the project.
+                        <br>4.Time-Saving: Outsourcing project cleaning allows project managers and contractors to focus on other important tasks, saving time and resources.
+                        <br>5.Client Satisfaction: Our goal is to exceed client expectations by providing reliable, responsive, and professional cleaning services that contribute to the success of the project.</p>
+                    <!-- <h3 class="mb-4">Est dolor lorem et ea</h3> -->
+                    <img class="img-fluid rounded w-50 float-right ml-4 mb-3" src="img/blog-2.jpg" alt="Image">
+
+                    <h3 class="mb-4">Our Project Cleaning Services:</h3>
+
+                    <p>1.Construction Site Cleaning: We remove debris, dust, and construction materials from the site, ensuring a safe and clean environment for workers and visitors.
+<br>2.Post-Construction Cleaning: Our team thoroughly cleans and prepares newly constructed or renovated spaces for occupancy, including detailed cleaning of floors, surfaces, fixtures, and more.
+<br>3.Commercial Development Cleaning: We provide comprehensive cleaning services for commercial developments, including retail spaces, offices, restaurants, and more, to create a clean and inviting environment for customers and tenants.
+<br>4.Specialized Cleaning: We offer specialized cleaning services tailored to meet the specific needs of each project, such as pressure washing, floor polishing, window cleaning, and more.
+<br>5.Emergency Cleaning: In the event of unexpected spills, accidents, or emergencies, our team is available to provide prompt and efficient cleaning services to minimize disruption and ensure safety.</p>
+                
+
+<h3 class="mb-4">Why Choose Us?</h3>
+
+                    <p>1.Experience: With years of experience in project cleaning, we have the knowledge and expertise to handle projects of all sizes and complexities.
+                        <br>2.Flexibility: We understand that every project is unique, which is why we offer flexible scheduling and customized cleaning solutions to meet your specific needs and deadlines.
+                        <br>3.Quality Assurance: Our commitment to quality and customer satisfaction is reflected in every aspect of our work, from our thorough cleaning processes to our attention to detail.
+                        <br>4.Eco-Friendly Practices: We prioritize environmental sustainability by using eco-friendly cleaning products and practices whenever possible, minimizing our impact on the environment.
+                        <br>5.Responsive Customer Service: Our dedicated team is available to address any questions, concerns, or special requests you may have, providing personalized attention and support throughout the project.
+                        
+</div>
+
+                <div class="mb-5">
+                    <h3 class="mb-4 section-title">3 Comments</h3>
+                    <div class="media mb-4">
+                        <img src="img/user.jpg" alt="Image" class="img-fluid rounded-circle mr-3 mt-1" style="width: 45px;">
+                        <div class="media-body">
+                            <h6>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h6>
+                            <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum clita, at tempor amet ipsum diam tempor sit.</p>
+                            <button class="btn btn-sm btn-light">Reply</button>
+                        </div>
+                    </div>
+                    <div class="media mb-4">
+                        <img src="img/user.jpg" alt="Image" class="img-fluid rounded-circle mr-3 mt-1" style="width: 45px;">
+                        <div class="media-body">
+                            <h6>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h6>
+                            <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum clita, at tempor amet ipsum diam tempor sit.</p>
+                            <button class="btn btn-sm btn-light">Reply</button>
+                            <div class="media mt-4">
+                                <img src="img/user.jpg" alt="Image" class="img-fluid rounded-circle mr-3 mt-1"
+                                    style="width: 45px;">
+                                <div class="media-body">
+                                    <h6>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h6>
+                                    <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum clita, at tempor amet ipsum diam tempor sit.</p>
+                                    <button class="btn btn-sm btn-light">Reply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-light rounded p-5">
+                    <h3 class="mb-4 section-title">Leave a comment</h3>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-6">
+                                <label for="name">Name *</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="email">Email *</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="website">Website</label>
+                            <input type="url" class="form-control" id="website">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group mb-0">
+                            <input type="submit" value="Leave Comment" class="btn btn-primary">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-5 mt-lg-0">
+                <div class="d-flex flex-column text-center bg-secondary rounded mb-5 py-5 px-4">
+                    <img src="img/user.jpg" class="img-fluid rounded-circle mx-auto mb-3" style="width: 100px;">
+                    <h3 class="text-white mb-3">John Doe</h3>
+                    <p class="text-white m-0">Conset elitr erat vero dolor ipsum et diam, eos dolor lorem ipsum,
+                        ipsum
+                        ipsum sit no ut est. Guber ea ipsum erat kasd amet est elitr ea sit.</p>
+                </div>
+                <div class="mb-5">
+                    <div class="w-100">
+                        <div class="input-group">
+                            <input type="text" class="form-control" style="padding: 25px;" placeholder="Keyword">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary px-4">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <h3 class="mb-4 section-title">Categories</h3>
+                    <ul class="list-inline m-0">
+                        <li class="mb-1 py-2 px-3 bg-light d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-secondary mr-2"></i>Web Design</a>
+                            <span class="badge badge-primary badge-pill">150</span>
+                        </li>
+                        <li class="mb-1 py-2 px-3 bg-light d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-secondary mr-2"></i>Web Development</a>
+                            <span class="badge badge-primary badge-pill">131</span>
+                        </li>
+                        <li class="mb-1 py-2 px-3 bg-light d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-secondary mr-2"></i>Online Marketing</a>
+                            <span class="badge badge-primary badge-pill">78</span>
+                        </li>
+                        <li class="mb-1 py-2 px-3 bg-light d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-secondary mr-2"></i>Keyword Research</a>
+                            <span class="badge badge-primary badge-pill">56</span>
+                        </li>
+                        <li class="py-2 px-3 bg-light d-flex justify-content-between align-items-center">
+                            <a class="text-dark" href="#"><i class="fa fa-angle-right text-secondary mr-2"></i>Email Marketing</a>
+                            <span class="badge badge-primary badge-pill">98</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mb-5">
+                    <img src="img/blog-1.jpg" alt="" class="img-fluid rounded">
+                </div>
+                <div class="mb-5">
+                    <h3 class="mb-4 section-title">Recent Post</h3>
+                    <div class="d-flex align-items-center border-bottom mb-3 pb-3">
+                        <img class="img-fluid rounded" src="img/blog-1.jpg" style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                        <div class="d-flex flex-column pl-3">
+                            <a class="text-dark mb-2" href="">Elitr diam amet sit elitr magna ipsum ipsum dolor</a>
+                            <div class="d-flex">
+                                <small><a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a></small>
+                                <small class="text-primary px-2">|</small>
+                                <small><a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border-bottom mb-3 pb-3">
+                        <img class="img-fluid rounded" src="img/blog-2.jpg" style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                        <div class="d-flex flex-column pl-3">
+                            <a class="text-dark mb-2" href="">Elitr diam amet sit elitr magna ipsum ipsum dolor</a>
+                            <div class="d-flex">
+                                <small><a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a></small>
+                                <small class="text-primary px-2">|</small>
+                                <small><a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border-bottom mb-3 pb-3">
+                        <img class="img-fluid rounded" src="img/blog-3.jpg" style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                        <div class="d-flex flex-column pl-3">
+                            <a class="text-dark mb-2" href="">Elitr diam amet sit elitr magna ipsum ipsum dolor</a>
+                            <div class="d-flex">
+                                <small><a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a></small>
+                                <small class="text-primary px-2">|</small>
+                                <small><a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border-bottom mb-3 pb-3">
+                        <img class="img-fluid rounded" src="img/blog-1.jpg" style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                        <div class="d-flex flex-column pl-3">
+                            <a class="text-dark mb-2" href="">Elitr diam amet sit elitr magna ipsum ipsum dolor</a>
+                            <div class="d-flex">
+                                <small><a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a></small>
+                                <small class="text-primary px-2">|</small>
+                                <small><a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid rounded" src="img/blog-2.jpg" style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                        <div class="d-flex flex-column pl-3">
+                            <a class="text-dark mb-2" href="">Elitr diam amet sit elitr magna ipsum ipsum dolor</a>
+                            <div class="d-flex">
+                                <small><a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a></small>
+                                <small class="text-primary px-2">|</small>
+                                <small><a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <img src="img/blog-2.jpg" alt="" class="img-fluid rounded">
+                </div>
+                <div class="mb-5">
+                    <h3 class="mb-4 section-title">Tag Cloud</h3>
+                    <div class="d-flex flex-wrap m-n1">
+                        <a href="" class="btn btn-outline-secondary m-1">Design</a>
+                        <a href="" class="btn btn-outline-secondary m-1">Development</a>
+                        <a href="" class="btn btn-outline-secondary m-1">Marketing</a>
+                        <a href="" class="btn btn-outline-secondary m-1">SEO</a>
+                        <a href="" class="btn btn-outline-secondary m-1">Writing</a>
+                        <a href="" class="btn btn-outline-secondary m-1">Consulting</a>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <img src="img/blog-3.jpg" alt="" class="img-fluid rounded">
+                </div>
+                <div>
+                    <h3 class="mb-4 section-title">Plain Text</h3>
+                    Aliquyam sed lorem stet diam dolor sed ut sit. Ut sanctus erat ea est aliquyam dolor et. Et no
+                    consetetur eos labore ea erat voluptua et. Et aliquyam dolore sed erat. Magna sanctus sed eos
+                    tempor
+                    rebum dolor, tempor takimata clita sit et elitr ut eirmod.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Detail End -->
+
+</body>
+
+
+<div class="container-fluid footer">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Facility Innovation</h4>
+                    <a href=""><i class="fas fa-home me-2"></i> E-253, Industrial Area, Phase 8b, Mohali, Punjab- 160055</a>
+                    <a href=""><i class="fas fa-envelope me-2"></i> sales@facilityinnovation.com</a>
+                    <a href=""><i class="fas fa-phone me-2"></i> +91 9988001117</a>
+                    <!-- <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a> -->
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-share fa-2x text-white me-2"></i>
+                        <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Company</h4>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> About</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Careers</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Blog</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Press</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Gift Cards</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Magazine</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Support</h4>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Contact</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Legal Notice</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Terms and Conditions</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Sitemap</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Cookie policy</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item">
+                    <div class="row gy-3 gx-2 mb-4">
+                        <div class="col-xl-6">
+                            <form>
+                                <div class="form-floating">
+                                    <select class="form-select bg-dark border" id="select1">
+                                        <option value="1">Arabic</option>
+                                        <option value="2">German</option>
+                                        <option value="3">Greek</option>
+                                        <option value="3">New York</option>
+                                    </select>
+                                    <label for="select1">English</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xl-6">
+                            <form>
+                                <div class="form-floating">
+                                    <select class="form-select bg-dark border" id="select1">
+                                        <option value="1">USD</option>
+                                        <option value="2">EUR</option>
+                                        <option value="3">INR</option>
+                                        <option value="3">GBP</option>
+                                    </select>
+                                    <label for="select1">$</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <h4 class="text-white mb-3">Payments</h4>
+                    <div class="footer-bank-card">
+                        <a href="#" class="text-white me-2"><i class="fab fa-cc-amex fa-2x"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-cc-visa fa-2x"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fas fa-credit-card fa-2x"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-cc-mastercard fa-2x"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-cc-paypal fa-2x"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-cc-discover fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer End -->
+
+<!-- Copyright Start -->
+<div class="container-fluid copyright text-body py-4">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-md-6 text-center text-md-end mb-md-0">
+                <i class="fas fa-copyright me-2"></i><a class="text-white" href="#">Your Site Name</a>, All right reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-start">
+                <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                Designed By <a class="text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Copyright End -->
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+</html>
